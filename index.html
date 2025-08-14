@@ -1,0 +1,25 @@
+<!-- blog.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mini Blog</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header><h1>Mini Blog</h1></header>
+  <main class="container">
+    <section class="editor">
+      <input id="title" placeholder="Post title" />
+      <textarea id="content" rows="6" placeholder="Write your post (supports markdown)"></textarea>
+      <input id="tags" placeholder="tags, comma separated" />
+      <div class="actions"><button id="publish" class="btn">Publish</button></div>
+    </section>
+
+    <section id="posts"></section>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
